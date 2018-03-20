@@ -9,6 +9,15 @@
   <url>http://maven.apache.org</url>
   <dependencies>
   
+  
+<dependency>
+    <groupId>javax</groupId>
+    <artifactId>javaee-api</artifactId>
+    <version>8.0</version>
+    <scope>provided</scope>
+</dependency>
+  
+  
   <!-- JUNIT DEPENDACY -->
     <dependency>
       <groupId>junit</groupId>
