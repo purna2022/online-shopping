@@ -11,8 +11,8 @@
    http://www.springframework.org/schema/mvc/spring-mvc.xsd
    
    ">
-	<context:component-scan base-package="ent.sahoo.onlineshopping.controller" />
-
+	<context:component-scan base-package="ent.sahoo.onlineshopping.controller"/>
+	<context:component-scan base-package="ent.sahoo.shoppingbackend.daoimpl"/>
 	<bean id="viewresolver"
 		class="org.springframework.web.servlet.view.InternalResourceViewResolver">
 

@@ -14,6 +14,14 @@
 
 	<dependencies>
 
+		<!-- Linking OnlineShoppingBacked to UI -->
+		<dependency>
+			<groupId>ent.sahoo</groupId>
+			<artifactId>shoppingbackend</artifactId>
+			<version>0.0.1-SNAPSHOT</version>
+
+		</dependency>
+
 		<!-- SPRING DEPENDACIES -->
 
 		<dependency>

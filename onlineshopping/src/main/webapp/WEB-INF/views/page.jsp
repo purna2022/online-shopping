@@ -31,8 +31,8 @@
 <link href="${css}/bootstrap.min.css" rel="stylesheet">
 
 <!-- Bootstrap readable theme CSS -->
-<link href="${css}/bootstrap_readable_theme.css"  rel="stylesheet"> 
- 
+<link href="${css}/bootstrap_readable_theme.css" rel="stylesheet">
+
 
 <!-- Custom styles for this template -->
 <link href="${css}/myapp.css" rel="stylesheet">
@@ -63,6 +63,11 @@
 			<!-- Load only when the user clicks Contact -->
 			<c:if test="${userClickContact == true }">
 				<%@include file="contact.jsp"%>
+			</c:if>
+			
+			<!-- Load only when the user clicks Contact -->
+			<c:if test="${userClickAllProduts == true or userClickCatagoryProduts==true}">
+				<%@include file="listProducts.jsp"%>
 			</c:if>
 
 		</div>
