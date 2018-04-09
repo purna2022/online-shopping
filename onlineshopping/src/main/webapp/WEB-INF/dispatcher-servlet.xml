@@ -12,7 +12,7 @@
    
    ">
 	<context:component-scan base-package="ent.sahoo.onlineshopping.controller"/>
-	<context:component-scan base-package="ent.sahoo.shoppingbackend.daoimpl"/>
+	<context:component-scan base-package="ent.sahoo.shoppingbackend"/>
 	<bean id="viewresolver"
 		class="org.springframework.web.servlet.view.InternalResourceViewResolver">
 
